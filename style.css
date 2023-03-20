@@ -18,14 +18,14 @@ body > header {
 body > header > h1 {
     display: flex;
     justify-content: center;
-    font-style: italic;
-    
+    font-weight: bolder;
 }
 
-#name {
+#form {
     display: flex;
+    justify-content: center;
     gap: 5rem;
-    padding: 5px;
+    padding: 50px;
 }
 
 #requests {
@@ -38,13 +38,41 @@ body > header > h1 {
 body > footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
+    align-items:flex-start;
+    background-color: rgb(186, 186, 186);
+    color: black;
 }
 
 #thailand_video {
     display: flex;
-    justify-content: center;
+    align-items:center;
     padding: 100px;
+    flex-direction: column;
+}
+
+#images1{
+    display: flex;
+    justify-content: center;
+}
+
+#images2{
+    display: flex;
+    justify-content: center;
+}
+
+.images {
+    padding: 30px 30px 30px;
+    width: 310px;
+    height: 310px;
+}
+
+body > h3 {
+    display: flex;
+    justify-content: center;
+}
+
+#footer_container{
+    display: flex;
+    color: black;
+    gap: 2rem;
 }

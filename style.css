@@ -19,6 +19,7 @@ body > header > h1 {
     display: flex;
     justify-content: center;
     font-weight: bolder;
+    font-size: 40px;
 }
 
 #form {
@@ -75,4 +76,19 @@ body > h3 {
     display: flex;
     color: black;
     gap: 2rem;
+}
+
+#footer2 {
+    background-color: white;
+    color: black;
+    display: flex;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+}
+
+#privacy {
+    display: flex;  
+    gap: 2rem;
+    list-style: none;
 }

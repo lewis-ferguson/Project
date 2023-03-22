@@ -36,14 +36,6 @@ body > header > h1 {
     flex-direction: column;      
 }
 
-body > footer {
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start;
-    background-color: rgb(186, 186, 186);
-    color: black;
-}
-
 #thailand_video {
     display: flex;
     align-items:center;
@@ -62,6 +54,7 @@ body > footer {
 }
 
 .images {
+    display: block;
     padding: 30px 30px 30px;
     width: 310px;
     height: 310px;
@@ -76,6 +69,7 @@ body > h3 {
     display: flex;
     color: black;
     gap: 2rem;
+    background-color: rgb(186, 186, 186);
 }
 
 #footer2 {
@@ -92,3 +86,53 @@ body > h3 {
     gap: 2rem;
     list-style: none;
 }
+
+#intro_header {
+    display: flex;
+    justify-content: center;
+}
+
+#inspiration_reference {
+    display: flex;
+    justify-content: center;
+}
+
+.overlay { 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;    
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+
+ .container:hover .overlay {
+    opacity: 1;
+  }
+
+.overlayText {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .container {
+    position: relative;
+    width: 23.5%;
+  }
+
+  .main_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

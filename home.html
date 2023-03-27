@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
    <script src="app.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+
     <title>Welcome!</title>
 </head>
 <body>
@@ -13,25 +15,26 @@
 
         <h1 class="main_header">Welcome to Bucket List Travels! <img src="images/sun_logo.svg" width="100px" height="100px"></h1> 
 
-        <nav>
-            <ul>
-                <li>
-                    <a href="/home.html">Home</a>
-                </li>
-                <li>
-                    <a href="/destination_info.html">Destination Info</a>
-                </li>
-                <li>
-                    <a href="/contact">Contact</a>
-                </li>
-                <li>
-                    <a href="/about">About</a>
-                </li>
-                
-            </ul>
-        </nav>
-        <img src="https://media.enableholidays.com/file/enablemedia/accessible-holidays-in-thailand-banner.jpg"> <br />
+        </header>  
+    <nav>
+        <ul>
+            <li>
+                <a href="/home.html">Home</a>
+            </li>
+            <li>
+                <a href="/destination_info.html">Destination Info</a>
+            </li>
+            <li>
+                <a href="/contact">Contact</a>
+            </li>
+            <li>
+                <a href="/about">About</a>
+            </li>
+            
+        </ul>
+    </nav>
 
+    <img src="https://media.enableholidays.com/file/enablemedia/accessible-holidays-in-thailand-banner.jpg" id ="banner-photo"> <br />
 
         <h2 id="intro_header">If you would like to receive quotes for our holiday packages, please fill out the form below!</h2>
         <p id="inspiration_reference">If you are unsure and need some inspiration, please click <a href="/destination_info.html"> here </a> to look at some of the destinations we have to offer!</p>
@@ -40,8 +43,8 @@
     <form id="form">
         <section>
      <h3>Personal Details</h3>
-           <label for="fullname">Full name:</label><br />
-           <input type="text" size="30px" id="fullname" name="fullname" placeholder="Enter your full name"><br />
+           <label for="fullname">Email Address:</label><br />
+           <input type="text" size="30px" id="fullname" name="fullname" placeholder="Enter your email address"><br />
     
       
      

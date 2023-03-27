@@ -27,23 +27,36 @@ section .wave {
     background-size: 1000px 100px;
     
 }
-section wave.wave1 {
-animation: animate 30s linear infinite;
+section .wave.wave1 {
+animation: animate 9s linear infinite;
 z-index: 1000;
 opacity: 0.8;
 animation-delay: 0s;
 bottom: 0;
 }
-section wave.wave2 {
-    animation: animate2 15s linear infinite;
+section .wave.wave2 {
+    animation: animate2 10s linear infinite;
     z-index: 999;
     opacity: 0.5;
-    animation-delay: -5s;
+    animation-delay: 0s;
     bottom: 10px;
-    
-
 }
 
+section .wave.wave3 {
+    animation: animate3 15s linear infinite;
+    z-index: 998;
+    opacity: 0.4;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+
+section .wave.wave4 {
+    animation: animate4 5s linear infinite;
+    z-index: 997;
+    opacity: 0.6;
+    animation-delay: 0s;
+    bottom: 20px;
+}
 @keyframes animate {
     0% {
         background-position-x: 0px ;
@@ -54,6 +67,24 @@ section wave.wave2 {
 }
 
 @keyframes animate2 {
+    0% {
+        background-position-x: 0px ;
+    }
+    100% {
+        background-position-x: -1000px ;
+    }
+}
+
+@keyframes animate3 {
+    0% {
+        background-position-x: 0px ;
+    }
+    100% {
+        background-position-x: -1000px ;
+    }
+}
+
+@keyframes animate4 {
     0% {
         background-position-x: 0px ;
     }

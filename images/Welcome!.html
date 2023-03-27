@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5501/home.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+   <script src="./Welcome!_files/app.js"></script>
+   <script src="./Welcome!_files/p5.js"></script>
+
+    <title>Welcome!</title>
+<link rel="stylesheet" href="./Welcome!_files/style.css"></head>
+<body>
+    <header>
+
+        <h1 class="main_header">Welcome to Bucket List Travels! <img src="./Welcome!_files/sun_logo.svg" width="100px" height="100px"></h1> 
+
+
+        
+        </header>  
+    <nav>
+        <ul>
+            <li>
+                <a href="http://127.0.0.1:5501/home.html">Home</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5501/destination_info.html">Destination Info</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5501/contact">Contact</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5501/about">About</a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <img src="./Welcome!_files/accessible-holidays-in-thailand-banner.jpg" id="banner-photo"> <br>
+
+        <h2 id="intro_header">If you would like to receive quotes for our holiday packages, please fill out the form below!</h2>
+        <p id="inspiration_reference">If you are unsure and need some inspiration, please click&nbsp;<a href="http://127.0.0.1:5501/destination_info.html">HERE</a>&nbsp;to look at some of the destinations we have to offer!</p>
+
+
+    <form id="form" name="form">
+        <section>
+     <h3>Personal Details</h3>
+           <label for="email">Email Address:</label><br>
+           <input type="text" size="30px" id="email" name="email" placeholder="Enter your email address"><br>
+    
+      
+     
+           <h3>Please select your location</h3>
+           <select name="location" id="location">
+             <option value="Scotland">Scotland</option>
+             <option value="England">England</option>
+             <option value="Northern Ireland">Northern Ireland</option>
+             <option value="Wales">Wales</option>
+           </select><br>
+    
+
+     </section>
+
+        <section>   
+    
+           <h3 class="">Adventures!</h3>
+
+           <input type="checkbox" id="Thailand" name="adventures" value="Thailand">
+           <label for="Thailand">Thailand</label><br>
+
+           <input type="checkbox" id="Usa" name="adventures" value="USA">
+           <label for="Usa">USA</label><br>
+
+           <input type="checkbox" id="japan" name="adventures" value="Japan">
+           <label for="japan">Japan</label><br>
+
+           <input type="checkbox" id="china" name="adventures" value="China">
+           <label for="china">China</label><br>
+
+           <input type="checkbox" id="carribean" name="adventures" value="Carribean">
+           <label for="carribean">Carribean</label><br>
+
+           <input type="checkbox" id="australia" name="adventures" value="Australia">
+           <label for="australia">Australia</label><br><br>
+        </section>
+
+        <section id="requests">
+     <label for="requests">Please enter additional requests</label><br>
+           <textarea name="requests" id="requests" placeholder="Please enter any additonal requests."></textarea>
+
+           <input id="submitbutton " type="submit" value="Submit">
+           <input id="clearbutton " type="reset" value="Clear">
+        </section>
+        <p id="form-result">No selections made yet.</p>
+    </form>
+
+    <div id="waves-div">
+
+        <section class="waves">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+            <div class="wave wave4"></div>
+           </section> 
+    </div>
+
+    <footer>
+        <div id="footer_container">
+            <section>
+                <h4>Contact us</h4>
+                <nav>
+                    <ul class="list_text">
+                        <li>
+                            <a href="http://127.0.0.1:5501/phone">Phone</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5501/email">Email</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5501/mail">Mail</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5501/visitus">Visit us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+            <section>
+                <h4>Services</h4>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="http://127.0.0.1:5501/">Book a trip</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5501/">Find out more</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5501/">Travel advice</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5501/">Travel restrictions</a>
+                        </li>
+                        <li>
+                            <a href="http://127.0.0.1:5501/">Travel requirements</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
+        </div>
+    </footer>
+ <footer id="footer2">
+    <nav>
+        <ul id="privacy">
+            <li>
+              <a href="http://127.0.0.1:5501/">Privacy Policy</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5501/">Cookies</a>
+            </li>
+            <li>
+                <a href="http://127.0.0.1:5501/">Terms and conditions</a>
+            </li>
+        </ul>
+    </nav>
+ </footer>
+    
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

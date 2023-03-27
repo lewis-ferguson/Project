@@ -197,14 +197,15 @@ section .wave {
     width: 100%;
     bottom: 0;
     left: 0;
-   background: url(/images/wave.svg);
-    background-size: 600px 103px;
+   background: url(/images/wave.png);
+    background-size: 1000px 100px;
     z-index: 10;
+    
 }
 section .wave.wave1 {
 animation: animate 9s linear infinite;
 z-index: 1000;
-opacity: 0.9;
+opacity: 0.8;
 animation-delay: 0s;
 bottom: 0;
 }
@@ -268,7 +269,7 @@ section .wave.wave4 {
 }
 
 #waves-div {
-    height: 150px;
-    width: 1649px;
+    height: 300px;
+    width: 1000px;
 
 }

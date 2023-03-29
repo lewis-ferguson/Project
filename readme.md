@@ -30,7 +30,7 @@ Are the pages visually stable.
 Have you optimised URLs? -->
 
 SEO and UX principles:
-The website contains a link to another travelling website. https://thebucketlistcompany.co.uk/
+The website contains a link to another travelling website. https://thebucketlistcompany.co.uk/. This is done to improve the trust rating of the website. It is also better for user experience to give a similar website that might have something they are looking for that my project does not offer.
 I chose images as close to the resolution I was using as possible to optimise loading time on the web page.
 The URL's are kept very simple for easy navigation.
 

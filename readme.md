@@ -18,6 +18,7 @@ The project can be pulled from github and run using the terminal with ' npm run 
 
 -Include wireframes used and any personas used to help create yoyr website. -->
 
+![trello used to plan the project](/public/images/trello.png)
 ![home page wireframe](/public/images/wireframe_home.png)
 ![destination page wireframe ](/public/images/wireframe_destinations.png)
 

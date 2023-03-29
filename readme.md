@@ -15,6 +15,7 @@ CSS was also used to make the pictures interactive when you mouse over, giving i
 
 
 The project can be pulled from github and run using the terminal with ' npm run server:dev ', or it can be run using live server on visual studio code.
+If running the server on windows, you must use npm server:dev in the terminal within visual studio, as it does not seem to work on git for windows.
 
 -Include wireframes used and any personas used to help create yoyr website. -->
 

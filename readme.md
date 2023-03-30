@@ -22,7 +22,6 @@ To keep track of tasks that I had to complete, I used trello to break down tasks
 ![trello used to plan the project](/public/images/trello.png)
 
 I initially drew wireframes on paper and used figma and excilidraw to finalise them.
-
 ![home page wireframe -figma](/public/images/wireframe_home.png)
 ![destination page wireframe-excelidraw ](/public/images/wireframe_destinations.png)
 

@@ -15,6 +15,7 @@ CSS was also used to make the pictures interactive when you mouse over, giving i
 
 
 The project can be pulled from github and run using the terminal with ' npm run server:dev ', or it can be run using live server on visual studio code.
+If running the server on windows, you must use npm server:dev in the terminal within visual studio, as it does not seem to work on git for windows.
 
 <!-- -Include wireframes used and any personas used to help create yoyr website. --> -->
 To keep track of tasks that I had to complete, I used trello to break down tasks into 'to do', 'doing' and 'done' to keep the project a lot more organised.
@@ -33,7 +34,7 @@ Are the pages visually stable.
 Have you optimised URLs? -->
 
 SEO and UX principles:
-The website contains a link to another travelling website. https://thebucketlistcompany.co.uk/
+The website contains a link to another travelling website. https://thebucketlistcompany.co.uk/. This is done to improve the trust rating of the website. It is also better for user experience to give a similar website that might have something they are looking for that my project does not offer.
 I chose images as close to the resolution I was using as possible to optimise loading time on the web page.
 The URL's are kept very simple for easy navigation.
 

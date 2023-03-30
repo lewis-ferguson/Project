@@ -16,11 +16,15 @@ CSS was also used to make the pictures interactive when you mouse over, giving i
 
 The project can be pulled from github and run using the terminal with ' npm run server:dev ', or it can be run using live server on visual studio code.
 
--Include wireframes used and any personas used to help create yoyr website. -->
+<!-- -Include wireframes used and any personas used to help create yoyr website. --> -->
+To keep track of tasks that I had to complete, I used trello to break down tasks into 'to do', 'doing' and 'done' to keep the project a lot more organised.
 
 ![trello used to plan the project](/public/images/trello.png)
-![home page wireframe](/public/images/wireframe_home.png)
-![destination page wireframe ](/public/images/wireframe_destinations.png)
+
+I initially drew wireframes on paper and used figma and excilidraw to finalise them.
+
+![home page wireframe -figma](/public/images/wireframe_home.png)
+![destination page wireframe-excelidraw ](/public/images/wireframe_destinations.png)
 
 
 <!-- SEO principles - 
